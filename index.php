@@ -1,17 +1,5 @@
 
-<script>
-var twitterBtn = document.querySelector('.twitter-share');
-var text = encodeURIComponent('Hey everyone, come & see how good I look!');
-var shareUrl = 'https://twitter.com/intent/tweet?url=' + location.href + '&text=' + text;
-twitterBtn.href = shareUrl; // 1
 
-twitterBtn.addEventListener('click', function(e) {
-  e.preventDefault();
-  var win = window.open(shareUrl, 'ShareOnTwitter', getWindowOptions());
-  win.opener = null; // 2
-});
-};
-</script>
   <!-- start section header -->
   <div id="header" class="home" style="background-image: linear-gradient(#dcfc67,#67ccfc);">
 
@@ -33,7 +21,7 @@ twitterBtn.addEventListener('click', function(e) {
                 } 
                 
                 
-                //the select 
+                //the select. the [limit] is just how much data you want
                 $sql = "SELECT id, job FROM jobs ORDER BY RAND() limit 3";
                 $result = $conn->query($sql);
                   
