@@ -1,29 +1,29 @@
-How to use it
+<b>How to use it<b>
 
-1. Database
+The database.
 
-CREATE TABLE `jobs` (
-  `id` int(11) NOT NULL,
-  `job` varchar(150) NOT NULL
-) ENGINE=MyISAM DEFAULT;
+CREATE TABLE `jobs` (<br>
+  `id` int(11) NOT NULL,<br>
+  `job` varchar(150) NOT NULL<br>
+) ENGINE=MyISAM DEFAULT;<br>
+<br>
+INSERT INTO `jobs` (`id`, `job`) VALUES<br>
+(1, 'Freelancer'),<br>
+(2, 'web developer'),<br>
+(3, 'All your base are belong to us..'),<br>
+...<br>
 
-INSERT INTO `jobs` (`id`, `job`) VALUES
-(1, 'Freelancer'),
-(2, 'web developer'),
-(3, 'All your base are belong to us..'),
-...
-
--- Index
-ALTER TABLE `jobs`
-  ADD PRIMARY KEY (`id`);
-
--- AUTO_INCREMENT 
-ALTER TABLE `jobs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
-COMMIT;
+-- Index<br>
+ALTER TABLE `jobs`<br>
+  ADD PRIMARY KEY (`id`);<br>
+<br>
+-- AUTO_INCREMENT <br>
+ALTER TABLE `jobs`<br>
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;<br>
+COMMIT;<br><br>
 
 
-2. copy the generator..(a randon select on a database)
+The generator..(a randon select on a database)
     
         <?php
                 $servername = "localhost";
