@@ -1,4 +1,4 @@
-<b>How to use it<b>
+<b>How to use it</b>
 
 The database.
 
