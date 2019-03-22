@@ -25,7 +25,7 @@ ALTER TABLE `jobs`<br>
 COMMIT;<br><br>
 
 
-The script generator..(a randon select on a database)
+The script generator..(a select randon on a database)
     
         <?php
                 $servername = "localhost";
