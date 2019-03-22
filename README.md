@@ -1,7 +1,7 @@
 <b>How to use it</b>
 <br>
 Create & complete the example datbase. Then copy & paste the php script..
-<br>
+<br><br><br>
 The database.
 
 CREATE TABLE `jobs` (<br>
